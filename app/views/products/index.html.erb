@@ -1,1 +1,13 @@
-<h1>Display all of your products here.</h1>
+<h1 class="text-center">STORE FRONT</h1>
+
+<div class="col-md-10 col-md-offset-1">
+  <% @products.each do |t| %>
+    <div class="col-md-4">
+      <div class="text-center">
+        <h1 class="center"><%= t.name %></h2>
+        <h5 class="center"><%= t.description %></h3>
+        <%= link_to "More Info", product_path(t), class:"center btn btn-primary" %>
+      </div>
+    </div>
+  <% end %>
+</div>

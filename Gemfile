@@ -5,10 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-<<<<<<< HEAD
-gem 'hirb', '~> 0.7.3'
-=======
->>>>>>> 7cbd23c625aaf4589cf727ef80b830561aaf9ccb
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'paperclip', '~> 5.1'
