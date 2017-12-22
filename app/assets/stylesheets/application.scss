@@ -14,6 +14,37 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+/* JUMBOTRON */
+
+.bg-image {
+  background-image: url("network.jpg");
+  height: 100%;
+}
+
+.jumbotron-text {
+  margin: 16rem 0 0 12rem;
+  .h7 {
+    font-size: 6rem;
+    margin: 0 10rem;
+    letter-spacing: 1.5rem;
+  }
+}
+
+.green {
+  color: #4BBF73;
+}
+
+.pink {
+  color: #ff9fb5;
+}
+
+.particles-js {
+  height: 100%;
+  background: red;
+}
+
+
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600");
 :root {
   --blue: #007bff;
@@ -453,15 +484,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2rem;
+  font-size: 4.5rem;
 }
 
 h2, .h2 {
-  font-size: 1.75rem;
+  font-size: 3.5rem;
 }
 
 h3, .h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 h4, .h4 {
@@ -3751,6 +3782,7 @@ tbody.collapse.show {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  margin: 0 3rem;
 }
 
 .nav-link:focus, .nav-link:hover {
@@ -3867,10 +3899,10 @@ tbody.collapse.show {
   display: inline-block;
   padding-top: 0.3359375rem;
   padding-bottom: 0.3359375rem;
-  margin-right: 1rem;
-  font-size: 1rem;
+  font-size: 3.2rem;
   line-height: inherit;
   white-space: nowrap;
+  margin: 0 3rem;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -8812,10 +8844,6 @@ a.text-dark:focus, a.text-dark:hover {
 
 .navbar-nav .nav-item + .nav-item {
   margin-left: 3rem;
-}
-
-.navbar-brand {
-  margin-right: 3rem;
 }
 
 .bg-primary {

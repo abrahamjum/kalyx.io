@@ -15,3 +15,9 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require_tree .
+//= require particles.js
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/javascripts/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
