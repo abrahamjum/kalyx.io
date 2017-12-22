@@ -44,6 +44,11 @@
   background: red;
 }
 
+/* SPACING TOOLS */
+
+.head-spacer {
+  padding: 1rem 0 5rem 0;
+}
 
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600");
 :root {
@@ -8914,7 +8919,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 th {
-  font-size: 0.765625rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 

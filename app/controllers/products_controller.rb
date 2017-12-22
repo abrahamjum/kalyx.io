@@ -3,6 +3,9 @@ class ProductsController < ApplicationController
   def home
   end
 
+  def contact
+  end
+
   def index
     @products = Product.all.order("created_at DESC")
   end

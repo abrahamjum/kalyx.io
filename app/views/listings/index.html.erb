@@ -1,0 +1,22 @@
+<h1 class="text-center head-spacer">Listings</h1>
+
+<div class="container text-center">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Posted</th>
+      </tr>
+    </thead>
+    <% @listings.each do |t| %>
+    <tbody>
+      <tr class="table-default">
+        <td><%= t.title %></td>
+        <td><%= t.description %></td>
+        <td><%= t.created_at %></td>
+      </tr>
+    </tbody>
+    <% end %>
+  </table>
+</div>
