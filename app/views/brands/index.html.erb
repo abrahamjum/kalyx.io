@@ -1,0 +1,11 @@
+<div class="container text-center">
+  <% @brands.each do |t| %>
+    <div class="col-md-4">
+      <div class="text-center">
+        <h2 class="center"><%= t.name %></h2>
+        <h5 class="center"><%= t.about %></h3>
+        <%= link_to "More Info", brands_path(t), class:"center btn btn-primary" %>
+      </div>
+    </div>
+  <% end %>
+</div>
